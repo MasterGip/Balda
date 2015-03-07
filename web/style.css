@@ -1,0 +1,87 @@
+table{
+    margin:0;
+
+}
+
+a{
+    padding:5px;
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color:black;
+}
+
+.button, ul li {
+    padding: 5px;
+    background: #DDDDDD;
+    border: 1px solid black;
+    display: inline-block;
+    float: left;
+    clear: both;
+    margin: 1px;
+
+}
+
+.button:hover, ul li:hover{
+    background: white;
+
+
+}
+
+ul li{
+    list-style-type: none;
+}
+
+
+td input[type="text"]{
+    width:30px;
+    height:30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+table[class="game_table"]{
+    border-collapse: collapse;
+    background: #DDDDDD;
+
+}
+
+div .element{
+
+    display:inline;
+    float: left;
+    margin-left: 55px;
+}
+
+div .element:first-child{
+    clear: both;
+    margin-left: 5px;
+}
+
+.game_table td{
+    height: 40px;
+}
+
+.game_table td{
+    border:1px solid black;
+    padding:5px;
+    width:50px;
+
+}
+
+.game_table tr:nth-child(2n){
+    background: white;
+}
+
+input{
+    border:1px solid black;
+
+}
+
+input[type="submit"]{
+    margin-top:2px;
+}

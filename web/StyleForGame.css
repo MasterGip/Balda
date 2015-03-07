@@ -1,0 +1,20 @@
+table.game_table{
+    border-collapse: collapse;
+    background: #DDDDDD;
+}
+
+.game_table td{
+    border-top:1px solid black;
+    border-bottom: 1px solid black;
+    padding:5px;
+    width:50px;
+
+}
+
+.game_table tr:nth-child(2n){
+    background: white;
+}
+
+input[type='submit']{
+    border-radius: 10px;
+}
